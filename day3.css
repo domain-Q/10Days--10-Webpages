@@ -1,0 +1,146 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(172, 143, 148);
+}
+#part1{
+    height: 100%;
+    width: 26%;
+   
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background:  background-color: rgb(172, 143, 148);
+    /* background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-size: cover;
+    background-position: center;
+}
+#part2 video{
+    /* overflow: hidden; */
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.256);
+   
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    /* background: rgb(20, 186, 109); */
+}
+#textDiv{
+    /* height: 300px; */
+    position: absolute;
+    width: 300px;
+    /* background-color: red; */
+    left: 3%;
+    top: 25%;
+    transform: translate();
+
+}
+#textDiv h1{
+   font-size: 80px; 
+   font-family: monument;
+   font-weight: 1000;
+   text-transform: uppercase;
+    line-height: 90px;
+    color: white;
+    letter-spacing: 10px;
+   
+}
+#textDiv h1 span{
+    color: #9e3254;
+}
+#textDiv h3{
+    position: absolute;
+    font-size: 24px;
+    left: 6%;
+    color: white;
+    margin-top: 3rem;
+    word-spacing: 10px;
+    font-weight: 900;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+#textDiv h3 span{
+    
+    font-size: 30px;
+    color: #9e3254;
+}
+/* #smallImg{
+    height: 300px;
+    width: 200px;
+    background:url(https://images.unsplash.com/photo-1516726817505-f5ed825624d8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: top ;
+    position: absolute;
+    top: 71.25%;
+    border-radius: 50%;
+    overflow: hidden;
+    right: 5%;
+    transform: translate(0 ,-50%);
+} */
+#overlayIn{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.324);
+}
+#verticalText{
+    position: absolute;
+    transform: rotate(90deg);
+    top: 45%;
+    right: -18%;
+    /* width :100%; */
+
+}
+#verticalText h1{
+    font-size: 60px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: transparent;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    transform-origin: 0% 0%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+#nav{
+    position: absolute;
+    top: 3%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    color: white;
+    font-size: 10px;
+    /* background-color: red; */
+
+
+
+}
+#nav h5{
+    font-size: 13px;
+}
+
+#nav img{
+  
+    height: 70px;
+}
